@@ -9,9 +9,10 @@ const app = new Hono();
 
 app.get("/", (c) => {
   return c.json({
-    message: "Hello Hono x Better Auth!",
+    message: "Open Store API",
+    version: "1.0.0",
     description:
-      "This is a simple example of a Hono x Better Auth application, you can use it as a starting point for your own application.",
+      "This is the Open Store API. It provides authentication and authorization services.",
     links: [
       {
         text: "Go to the Authentication API Documentation",
